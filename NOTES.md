@@ -44,5 +44,42 @@ Efter clock är klar och säger okej tack jag har sparat alla 8 bitar i rätt or
 
 
 
+PUSSEL X
+
+LED Morse kod 
 
 
+
+
+PUSSEL X 
+
+7-segment Display som visar nummer via SPI logik 
+
+
+
+
+PUSSEL X
+
+
+Potentiometrar via ADC omvandling
+
+
+
+
+PUSSEL X
+
+Avståndmätare (HY-SRF05)
+
+TIMERS,INTERRUPTS och BIT-BANGING
+
+
+
+
+
+ATmega328 Ports
+
+Port B (SPI stöd) 
+
+Port C (Anlog-to-Digital Converter ADC STÖD)
+
+Port D UART (PD0 och PD1) External interrupts (PD2 och PD3)
