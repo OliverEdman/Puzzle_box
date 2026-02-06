@@ -46,7 +46,7 @@ Efter clock är klar och säger okej tack jag har sparat alla 8 bitar i rätt or
 
 PUSSEL X
 
-LED Morse kod 
+LED Morse kod(PB0? Digital Pin 8) 
 
 
 
@@ -55,15 +55,20 @@ PUSSEL X
 
 7-segment Display som visar nummer via SPI logik 
 
+SS Pin 16 PB2 Latch (ST_CP) 
+MOSI Pin 17 PB3 Data (DS)
+SCK Pin 19 PB5 Clock (SH_CP)
 
 
 
 PUSSEL X
 
+Potentiometrar via ADC omvandling (PORT C)
 
-Potentiometrar via ADC omvandling
-
-
+Pot 1 (North),Pin 23,PC0,ADC0
+Pot 2 (East),Pin 24,PC1,ADC1
+Pot 3 (South),Pin 25,PC2,ADC2
+Pot 4 (West),Pin 26,PC3,ADC3
 
 
 PUSSEL X
@@ -72,6 +77,16 @@ Avståndmätare (HY-SRF05)
 
 TIMERS,INTERRUPTS och BIT-BANGING
 
+TRIGGER (PD4)
+Echo (PD2/INT0)
+
+
+
+
+
+
+PUSSEL X
+Servomotor (PB1 (PWM)?
 
 
 
