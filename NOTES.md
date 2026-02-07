@@ -23,7 +23,7 @@
 
 
 
-SHIFR REGISTER LOGIK
+SHIFT REGISTER LOGIK
 
 
 
@@ -91,6 +91,25 @@ Servomotor (PB1 (PWM)?
 
 
 
+PUSSEL 1 
+
+SIMON SAYS
+
+
+PD5, PD6, PD7 (Knappar)
+
+LED 1: PD3 (Digital utgång)
+
+LED 2: PC4 (Digital utgång)
+
+LED 3: PC5 (Digital utgång)
+
+LED Klart: PB4 (Digital utgång) 
+
+
+
+
+
 ATmega328 Ports
 
 Port B (SPI stöd) 
@@ -98,3 +117,4 @@ Port B (SPI stöd)
 Port C (Anlog-to-Digital Converter ADC STÖD)
 
 Port D UART (PD0 och PD1) External interrupts (PD2 och PD3)
+
