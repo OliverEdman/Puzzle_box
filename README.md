@@ -18,22 +18,24 @@ and master C programming and Bare Metal development on the AVR architecture.
 * **Protocols:** SPI (Shift Register), PWM (Servo), ADC (Potentiometers), UART (Debugging).
 * **Key Components:** 74HC595, SG90 Servo, HC-SR04, 3461AS-1 Display.
 
-## 📁 Project Structure.
-├── 📂 app            # The "Application layer"
-│   └── main.c        # Main & Game State Machine
+## 📁 Project Structure
+
+
+```bash
+.
+├── 📂 app            # Main logic & State Machine
+│   └── main.c        # Entry point
 ├── 📂 drivers        # Hardware Abstraction Layer (HAL)
-│   ├── display.c     # 74HC595 & 7-Segment multiplexing logic
-│   ├── servo.c       # PWM signal generation for SG90
-│   └── (other peripheral drivers...)
-├── 📂 src            # The "Engine Room"
-│   └── functions.c   # Core logic implementation & puzzle algorithms
-├── 📂 include        # The "Map" (Header files)
-│   ├── display.h     # Driver interfaces
-│   ├── morse.h       # Morse code logic definitions
-│   └── functions.h   # Function prototypes for src/
-├── 📄 .gitignore     # Prevents build artifacts (hex/obj) from being tracked
-├── 📄 LICENSE        # Project licensing information
-├── 📝 NOTES.md       # Dev logs, pin-maps, and brainstormed ideas
-└── 📘 README.md      # Project documentation
+│   ├── display.c     # 7-segment & 74HC595 driver
+│   └── servo.c       # PWM & Timer driver
+├── 📂 src            # Implementation of puzzles
+│   └── functions.c   # Core algorithms & logic
+├── 📂 include        # Header files (.h)
+│   ├── display.h
+│   └── functions.h
+├── 📄 .gitignore     # Files to ignore (hex, obj)
+├── 📄 LICENSE        # MIT License
+├── 📝 NOTES.md       # Pinout & Scratchpad
+└── ⚙️ Makefile      # Build configuration
 
 
