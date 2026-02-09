@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/status-work--in--progress-orange)
+
 # Embedded Puzzle Box - Bare metal project
 
 
