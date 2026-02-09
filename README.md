@@ -16,9 +16,10 @@ and master C programming and Bare Metal development on the AVR architecture.
 
 ## 🛠️ Tech Stack & Hardware
 * **Microcontroller:** ATmega328P (8-bit AVR)
-* **Language:** C
-* **Protocols:** SPI (Shift Register), PWM (Servo), ADC (Potentiometers), UART (Debugging).
+* **Language:** Bare Metal C
+* **Communication & Logic:** SPI (Shift Register), PWM (Servo), ADC (Potentiometers).
 * **Key Components:** 74HC595, SG90 Servo, HC-SR04, 3461AS-1 Display.
+* **External Interrupts**
 
 ## 📁 Project Structure
 
@@ -30,6 +31,7 @@ and master C programming and Bare Metal development on the AVR architecture.
 ├── 📂 drivers        # Hardware Abstraction Layer (HAL)
 │   ├── display.c     # 7-segment & 74HC595 driver
 │   └── servo.c       # PWM & Timer driver
+|
 ├── 📂 src            # Implementation of puzzles
 │   └── functions.c   # Core algorithms & logic
 ├── 📂 include        # Header files (.h)
@@ -37,7 +39,7 @@ and master C programming and Bare Metal development on the AVR architecture.
 │   └── functions.h
 ├── 📄 .gitignore     # Files to ignore (hex, obj)
 ├── 📄 LICENSE        # MIT License
-├── 📝 NOTES.md       # Pinout & Scratchpad
+├── 📝 NOTES.md       # Pinout & notes
 └── ⚙️ Makefile      # Build configuration
 
 
