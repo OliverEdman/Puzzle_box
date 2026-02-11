@@ -20,7 +20,7 @@
  * Pin 4  (Q4)           Display Segment E              Nere Vänster
  * Pin 5  (Q5)           Display Segment F              Uppe Vänster
  * Pin 6  (Q6)           Display Segment G              Mitten
-
+ * Pin 7 (Q7)            Display Decimalpunkt           Punkt
 
 
 SHIFT REGISTER LOGIK
@@ -75,7 +75,7 @@ PUSSEL X
 
 Avståndmätare (HY-SRF05)
 
-TIMERS,INTERRUPTS och BIT-BANGING
+TIMERS,INTERRUPTS
 
 TRIGGER (PD4)
 Echo (PD2/INT0)
